@@ -6,6 +6,18 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+                                        /* shared items */
+.btn-primary {
+color: #FFF;
+border-radius: 8px;
+background: #FF900E;
+text-align: center;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 600;
+padding: 20px 25px;
+border: none;
+}
                                     /* header section styles */
 
 nav {
@@ -64,4 +76,32 @@ font-weight: 400;
 max-width: 800px;
 text-align: center;
 margin: 0 auto;
+}
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+                          /* mobile devices responsive styles */
+@media screen and (max-width:576px) {
+    nav {
+        padding: 20px;
+        flex-direction: column;
+        
+    }
+    nav > ul {
+        justify-content: center;
+    }
+}
+
+/* tablet or medium devices responsive styles */
+
+@media  screen and (min-width:576px) and (max-width:960px) {
+    nav{
+        padding:20px;
+        flex-direction: column;
+    }
+    nav> ul{
+        justify-content: center;
+    }
 }
