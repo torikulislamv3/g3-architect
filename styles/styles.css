@@ -1,5 +1,67 @@
+                                /* work sans font from google font website */
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 *{
     font-family: 'Work Sans', sans-serif;
+}
+
+                                    /* header section styles */
+
+nav {
+    display: flex;
+    padding: 50px 240px;
+    background: rgba(255, 144, 14, 0.10);
+    justify-content: space-between;
+    text-align: center;
+}                  
+
+.header-title {
+    font-family: Work Sans;
+font-size: 3rem;
+font-weight: 700;
+color:#131313;
+}
+
+nav > ul  {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 35px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #424242;
+}
+
+
+                               /* banner section styles */
+
+                               
+.banner-title{
+    color:#131313;
+text-align: center;
+font-family: Work Sans;
+font-size: 4rem;
+font-weight: 700;
+}
+
+.banner-description {
+    color: #727272;
+text-align: center;
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 400;
+}
+
+.banner-content {
+max-width: 800px;
+text-align: center;
+margin: 0 auto;
 }
