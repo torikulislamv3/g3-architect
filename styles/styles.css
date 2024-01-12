@@ -137,6 +137,22 @@ font-size: 1rem;
 font-weight: 400;
 }
 
+/* facts section styles */
+
+.fact-title {
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 700;
+}
+
+.fact-description {
+    color: #727272;
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 400;
+}
+
 
 
                        /* mobile devices responsive styles */
@@ -168,4 +184,6 @@ font-weight: 400;
                         nav> ul{
                             justify-content: center;
                         }
+                        
+                        
                     }
