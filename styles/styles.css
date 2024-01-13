@@ -284,6 +284,10 @@ text-align: left;
     border-radius: 8px;
 background: #FF900E;
 width: 400px;
+height: 150px;
+position: relative;
+bottom: 130px;
+right: 150px;
 }
 
 .ten-years-exp > h2 {
@@ -293,6 +297,7 @@ font-family: Work Sans;
 font-size: 4rem;
 font-weight: 700;
 margin-bottom: 0;
+
 }
 .ten-years-exp > p {
     color: #FFF;
@@ -301,6 +306,11 @@ font-size: 1.6rem;
 text-align: center;
 font-weight: 500;
 margin-top: 2px;
+
+}
+.features-img-content img {
+    height: 90%;
+    margin-left: 60px;
 }
 
 
