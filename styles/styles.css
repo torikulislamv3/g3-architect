@@ -153,6 +153,36 @@ font-size: 1rem;
 font-weight: 400;
 }
 
+/* facts section styles  */
+
+.fact-cards-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact-cards-container .card {
+    border-radius: 8px;
+border: 1px solid #FF900E;
+padding: 30px;
+text-align: center;
+}
+
+.fact-cards-container .card-state {
+    color: #424242;
+font-family: Work Sans;
+font-size: 2.8REM;
+font-weight: 600;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.fact-cards-container .card-description {
+    color: #727272;
+font-family: Work Sans;
+font-size: 1.2rem;
+font-weight: 600;
+margin-top: 0;
+}
 
 
                        /* mobile devices responsive styles */
