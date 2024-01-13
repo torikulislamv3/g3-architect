@@ -184,10 +184,34 @@ font-weight: 600;
 margin-top: 0;
 }
 
+/* sponsors section styles */
+
+.sponsors-section {
+    text-align: center;
+}
+
+.sponsors-section .sponsors-section-title
+{
+    color: #131313;
+font-family: Work Sans;
+font-size: 2.8rem;
+font-weight: 700;
+margin-bottom: 0;
+}
+.sponsors-section .sponsors-section-description {
+    max-width: 500px;
+    margin: 0 auto;
+    color: #727272;
+text-align: center;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 400;
+margin-top: 22px;
+}
 
                        /* mobile devices responsive styles */
                        @media screen and (max-width:576px) {
-                        nav, .teams-section {
+                        nav, .teams-section,.fact-cards-container {
                             padding: 20px;
                             flex-direction: column;
                             
@@ -202,6 +226,10 @@ margin-top: 0;
                             padding-right: 20px;
                             padding-left: 20px;
                         }
+                    }
+
+                    .fact-cards-container {
+                        gap: 20px;
                     }
                     
                     /* tablet or medium devices responsive styles */
