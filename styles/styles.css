@@ -209,6 +209,102 @@ font-weight: 400;
 margin-top: 22px;
 }
 
+/* features section styles */
+
+.features .features-section-title {
+    color: #131313;
+font-family: Work Sans;
+font-size: 2.8rem;
+font-weight: 700;
+max-width: 450px;
+margin-bottom: 0;
+}
+
+.features .features-section-description {
+    max-width: 550px;
+    color:#727272;
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 20px;
+}
+
+/* features section styles */
+.features-section {
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.features-section-title{
+    max-width: 450px;
+    color: #131313;
+font-family: Work Sans;
+font-size: 2.8rem;
+font-weight: 700;
+margin-bottom: 0;
+border-left: 5px solid #FF900E;
+padding-left: 25px;
+}
+
+.features-content-description {
+    max-width: 550px;
+    color: #727272;
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 5px;
+}
+.features-card-title{
+    color: #131313;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 600;
+margin-bottom: 0;
+}
+.features-card-description{
+    margin-top: 5px;
+    color: #727272;
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 400;
+}
+
+.card {
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+width: 586px;
+height: 171px;
+flex-shrink: 0;
+text-align: left;
+}
+
+.ten-years-exp {
+    border-radius: 8px;
+background: #FF900E;
+width: 400px;
+}
+
+.ten-years-exp > h2 {
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 4rem;
+font-weight: 700;
+margin-bottom: 0;
+}
+.ten-years-exp > p {
+    color: #FFF;
+font-family: Work Sans;
+font-size: 1.6rem;
+text-align: center;
+font-weight: 500;
+margin-top: 2px;
+}
+
+
+
                        /* mobile devices responsive styles */
                        @media screen and (max-width:576px) {
                         nav, .teams-section,.fact-cards-container {
